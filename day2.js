@@ -1,189 +1,231 @@
-// 1.Write a program to add, subtract, multiply and divide two numbers.
 
-// let value1=10;
-// let value2=20;
+// let a=20;
+// let b=10;
 
-// console.log("value 1=",value1);
-// console.log("value 2=",value2);
-// console.log("add two values=",value1+value2);
-// console.log("subtract two values=",value1-value2);
-// console.log("multiply two values=",value1*value2);
-// console.log("divide two values=",value1/value2);
+// console.log("Addition =",a+b);
+// console.log("Subtraction =",a-b);
+// console.log("Multiplication =",a*b);
+// console.log("Division =",a/b);
 
 
-// 2.Find the remainder of two numbers.
-// let a1=20;
-// let a2=10;
 
-// let c=a1%2;
-// console.log("Remainder = ",c)
-// 1. Check whether a number is positive, negative or zero.
+// let a=10;
+// let b=3;
 
-const { mark } = require("framer-motion/client");
+// console.log("Remainder =",a%b);
 
-// let number=20;
 
-// if(number>0)
+
+// let num=10;
+
+// if(num%2==0)
 // {
-//     console.log("this number is a positive number",number);
-// }
-// else if(number<0)
-// {
-//     console.log("this number is a negative number",number);
+//     console.log("Even Number");
 // }
 // else
 // {
-//     console.log("this number is a zero number",number);
+//     console.log("Odd Number");
 // }
 
 
-// 2.Find the largest of two numbers.
 
-// let value1=200;
-// let value2=30;
+// let num=5;
 
-// if(value1>value2)
+// console.log("Square =",num**2);
+// console.log("Cube =",num**3);
+
+
+
+
+// let a=10;
+// let b=20;
+
+// let temp=a;
+// a=b;
+// b=temp;
+
+// console.log("a =",a);
+// console.log("b =",b);
+
+
+
+// let a=10;
+// let b=20;
+
+// a=a+b;
+// b=a-b;
+// a=a-b;
+
+// console.log("a =",a);
+// console.log("b =",b);
+
+
+
+
+// let marks=70;
+// let attendance=80;
+
+// if(marks>=35 && attendance>=75)
 // {
-//     console.log("Value1 is a largest number",value1);
+//     console.log("Student Passed");
 // }
 // else
 // {
-//     console.log("value2 is a largest number",value2);
+//     console.log("Student Failed");
 // }
 
 
-//3. Find the largest of three numbers.
 
-// let a=200;
-// let b=300;
-// let c=40;
+// let basicSalary=20000;
+
+// let hra=basicSalary*20/100;
+// let da=basicSalary*10/100;
+
+// let grossSalary=basicSalary+hra+da;
+
+// console.log("Basic Salary =",basicSalary);
+// console.log("HRA =",hra);
+// console.log("DA =",da);
+// console.log("Gross Salary =",grossSalary);
+
+
+
+// let amount=6000;
+// let discount=0;
+
+// if(amount>=5000)
+// {
+//     discount=amount*20/100;
+// }
+// else if(amount>=3000)
+// {
+//     discount=amount*10/100;
+// }
+// else
+// {
+//     discount=0;
+// }
+
+// let finalAmount=amount-discount;
+
+// console.log("Shopping Amount =",amount);
+// console.log("Discount =",discount);
+// console.log("Final Amount =",finalAmount);
+
+
+
+// let price="1000";
+
+// let amount=Number(price);
+
+// let gst=amount*18/100;
+
+// let total=amount+gst;
+
+// console.log("Price =",amount);
+// console.log("GST =",gst);
+// console.log("Total Price =",total);
+
+
+
+// let age=25;
+// let salary=30000;
+
+// if(age>=21 && salary>=25000)
+// {
+//     console.log("Eligible for Loan");
+// }
+// else
+// {
+//     console.log("Not Eligible for Loan");
+// }
+
+
+
+// let a=50;
+// let b=30;
+// let c=70;
 
 // if(a>b && a>c)
 // {
-//     console.log("First value is a largest number",a);
+//     console.log("Largest =",a);
 // }
 // else if(b>a && b>c)
 // {
-//     console.log("Second value is a largest number",b);
-// }
-// else if(c>a && c>b)
-// {
-//     console.log("Third value is a largest number");
+//     console.log("Largest =",b);
 // }
 // else
 // {
-//     console.log("invaild numbers")
-// }
-
-// 4. Check whether a year is a leap year.
-
-// let year=200;
-
-// if(year%4==0)
-// {
-//     console.log("this a leap year");
-// }
-// else if(year%400==0)
-// {
-//     console.log("this a leap year");
-// }
-// else if(year%100==0)
-// {
-//     console.log("this a not leap year");
-// }
-// else
-// {
-//     console.log("this not leap year");
+//     console.log("Largest =",c);
 // }
 
 
-// 5. Check whether a student passed or failed.
 
-// let marks=40;
+// let a=10;
+// let b="10";
 
-// if (marks>=50 && marks<100)
-// {
-//     console.log("This student passed",marks);
-// }
-// else if(marks>0 && marks<50)
-// {
-//     console.log("This student was failed");
-// }
-// else
-// {
-//     console.log("Invaild marks");
-// }
+// console.log(a==b);
+// console.log(a===b);
 
-// 6. Print numbers from 1 to 100.
 
-// let num=100;
-// let i;
 
-// for (i=1; i<=num; i++)
-// {
-//     console.log("values=",i);
+
+// let a="10";
+// let b="2";
+
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a%b);
+// console.log(a/b);
+
+
+
+// let a=0;
+// let b=10;
+
+// console.log(a || b);
+// console.log(a ?? b);
+
+
+
+
+// let student={
+//     name:"Prasanth",
+//     age:22,
+//     address:{
+//         city:"Rajahmundry",
+//         state:"Andhra Pradesh"
+//     }
 // };
 
-
-// 7.Print even numbers from 1 to 50.
-
-// let num=50;
-// let i;
-
-// for (i=1; i<=num; i++)
-// {
-//     if(i%2==0)
-//     {
-//         console.log("Even values=",i);
-//     };
-// };
-
-// 8.Calculate the sum of numbers from 1 to 100.
-
-// let num=100;
-// let sum=0;
-// let i;
-
-// for (i=1; i<=num; i++)
-// {
-//     sum+=i;
-// };
-// console.log("sum of all number=",sum);
+// console.log(student.name);
+// console.log(student.address.city);
+// console.log(student.address?.state);
+// console.log(student.address?.pincode);
 
 
-// 9.Print the multiplication table of any number.
-// let num=2;
-// let i;
-// for (i=0; i<=20; i++)
-// {
-//     mult=num*i;
-//     console.log("Multiplication tables:"+num,"*",i,"=",mult);
-// };
 
-// 10.Find the factorial of a number.
 
-// let fact=5;
-// let sum=1;
-// let i;
+// let a=10;
+// let b=10;
 
-// for (i=1; i<=fact; i++)
-// {
-//     sum=sum*i;
-// };
-// console.log(fact,"Factorial=",sum);
+// console.log("Post Increment =",a++);
+// console.log("After Post Increment =",a);
 
-// 11.Reverse a number.
-// let num=123;
-// let temp=num;
-// let sum=0;
+// console.log("Pre Increment =",++b);
+// console.log("After Pre Increment =",b);
 
-// while(num>0)
-// {
-//     rem=num%10;
-//     sum=sum*10+rem;
-//     num=Math.floor(num/10);    
-// };
-// console.log(temp,"Reverse a number.",sum)
 
-// 12.Count the digits in a number.
+
+// console.log(10+5*2);
+
+// console.log((10+5)*2);
+
+// console.log(20-5+3);
+
+// console.log(10+20/5);
+
+// console.log(2**3*2);
+
 
