@@ -208,24 +208,237 @@ const { matchPath } = require("react-router-dom");
 
 // 15.Print all prime numbers between 1 and 100.
 
-let num1=10;
+// let num1=10;
 
-for (let i=2; i<=num1; i++)
-{
-    let value=0;
+// for (let i=2; i<=num1; i++)
+// {
+//     let value=0;
 
-    for(let j=1; j<=i; j++)
-    {
-        if(i%j == 0)
-        {
-            value=value+1;
+//     for(let j=1; j<=i; j++)
+//     {
+//         if(i%j == 0)
+//         {
+//             value=value+1;
             
-        }
-    };
-    if(value == 2)
-    {
-        console.log(i);
-    }
+//         }
+//     };
+//     if(value == 2)
+//     {
+//         console.log(i);
+//     }
     
-};
+// };
+
+
+// let a=0;
+// let b=1;
+
+// for(let i=1; i<=10; i++)
+// {
+//     console.log(a);
+
+//     let c=a+b;
+//     a=b;
+//     b=c;
+// }
+
+
+// let a=20;
+// let b=10;
+// let operator="+";
+
+// switch(operator)
+// {
+//     case "+":
+//         console.log(a+b);
+//         break;
+
+//     case "-":
+//         console.log(a-b);
+//         break;
+
+//     case "*":
+//         console.log(a*b);
+//         break;
+
+//     case "/":
+//         console.log(a/b);
+//         break;
+
+//     default:
+//         console.log("Invalid Operator");
+// }
+
+
+// let num=153;
+// let temp=num;
+// let sum=0;
+
+// while(temp>0)
+// {
+//     let rem=temp%10;
+//     sum=sum+(rem*rem*rem);
+//     temp=Math.floor(temp/10);
+// }
+
+// if(sum==num)
+// {
+//     console.log("Armstrong Number");
+// }
+// else
+// {
+//     console.log("Not Armstrong Number");
+// }
+
+
+
+// let num=121;
+// let temp=num;
+// let reverse=0;
+
+// while(temp>0)
+// {
+//     let rem=temp%10;
+
+//     reverse=reverse*10+rem;
+
+//     temp=Math.floor(temp/10);
+// }
+
+// if(num==reverse)
+// {
+//     console.log("Palindrome");
+// }
+// else
+// {
+//     console.log("Not Palindrome");
+// }
+
+
+
+// for(let i=1; i<=5; i++)
+// {
+//     let pattern="";
+
+//     for(let j=1; j<=i; j++)
+//     {
+//         pattern=pattern+"* ";
+//     }
+
+//     console.log(pattern);
+// }
+
+
+
+// for(let i=5; i>=1; i--)
+// {
+//     let pattern="";
+
+//     for(let j=1; j<=i; j++)
+//     {
+//         pattern=pattern+"* ";
+//     }
+
+//     console.log(pattern);
+// }
+
+
+
+// for(let i=1; i<=5; i++)
+// {
+//     let pattern="";
+
+//     for(let j=1; j<=5-i; j++)
+//     {
+//         pattern=pattern+" ";
+//     }
+
+//     for(let k=1; k<=2*i-1; k++)
+//     {
+//         pattern=pattern+"*";
+//     }
+
+//     console.log(pattern);
+// }
+
+
+
+// for(let i=1; i<=10; i++)
+// {
+//     console.log("Table:",i);
+
+//     for(let j=1; j<=10; j++)
+//     {
+//         console.log(i+" x "+j+" = "+(i*j));
+//     }
+
+//     console.log("------------");
+// }
+
+
+
+// for(let i=1; i<=10; i++)
+// {
+//     let name="Employee "+i;
+//     let basicSalary=20000;
+
+//     let hra=basicSalary*0.20;
+//     let da=basicSalary*0.10;
+//     let pf=basicSalary*0.12;
+
+//     let grossSalary=basicSalary+hra+da;
+//     let netSalary=grossSalary-pf;
+
+//     console.log("Employee:",name);
+//     console.log("Basic Salary:",basicSalary);
+//     console.log("HRA:",hra);
+//     console.log("DA:",da);
+//     console.log("PF:",pf);
+//     console.log("Gross Salary:",grossSalary);
+//     console.log("Net Salary:",netSalary);
+
+//     console.log("--------------------");
+// }
+
+
+
+// for(let i=1; i<=20; i++)
+// {
+//     let name="Student "+i;
+
+//     let m1=85;
+//     let m2=75;
+//     let m3=90;
+
+//     let total=m1+m2+m3;
+//     let average=total/3;
+
+//     console.log("Student:",name);
+//     console.log("Total Marks:",total);
+//     console.log("Average:",average);
+
+//     if(average>=90)
+//     {
+//         console.log("Grade: A");
+//     }
+//     else if(average>=75)
+//     {
+//         console.log("Grade: B");
+//     }
+//     else if(average>=60)
+//     {
+//         console.log("Grade: C");
+//     }
+//     else if(average>=35)
+//     {
+//         console.log("Grade: D");
+//     }
+//     else
+//     {
+//         console.log("Fail");
+//     }
+
+//     console.log("------------------");
+// }
+
 
